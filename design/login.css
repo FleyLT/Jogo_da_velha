@@ -10,22 +10,24 @@ body {
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: rgb(12, 19, 40);
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); 
+    background: blur(40px)
 }
 .login-form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: rgb(181, 181, 181);
     padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 400px;
     text-align: center;
+    background: #fefeff;
+    box-shadow: 5px 1px 3px rgba(69, 69, 73, 0.39);
 }
 .login-form input,button {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #030303;
     border-radius: 4px;
     font-size: 16px;
 }
